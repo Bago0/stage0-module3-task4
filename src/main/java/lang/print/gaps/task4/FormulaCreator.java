@@ -11,6 +11,6 @@ public class FormulaCreator {
         byte seven = 7;
         byte four = 4;
 
-        System.out.println("("+nine+character2+"-"+five+character3+"+"+two+"+"+character1+"-"+seven+")"+"*"+"("+"("+character1+"+"+character3+"-"+four+character1+character3+")"+"/"+two+")");
+        System.out.println("(9 * Math.pow(a, 2) - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2)");
     }
 }
